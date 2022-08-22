@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="mode">
+            <img class="temp" src="assets/icon.png" alt="">
+            <img class="moon" src="assets/moon.png" alt="">
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="leftside">
+            <div class="topside">
+                <div class="timer">25:00</div>
+            </div>
+            <div class="botside">
+                <div class="play">
+                    <img src="assets/play.png" alt="" class="playB">
+                    <img src="assets/play (2).png" alt="" class="butPl">
+                </div>
+                <div class="pause">
+                    <img src="assets/stop.png" alt="" class="pauseB">
+                    <img src="assets/stop (2).png" alt="" class="butSt">
+                </div>
+                <div class="more">
+                    <img src="assets/+.png" alt="" class="moreB">
+                    <img src="assets/+ (2).png" alt="" class="butMo">
+                </div>
+                <div class="minus">
+                    <img src="assets/-.png" alt="" class="minusB">
+                    <img src="assets/- (2).png" alt="" class="butMi">
+                </div>
+            </div>
+        </div>
+        <div class="rightside">
+            <div class="tree">
+                <div class="icon">
+                    <img src="assets/Vector.png" alt="" class="cardT">
+                    <img src="assets/icon (5).png" alt="" class="iconT">
+                </div>
+                <div class="slider">
+                    <audio id="treeSound" src="./audios/Floresta.wav"></audio>
+                    <input type="range" class="treeVolume " min="0" value="0" max="100" step="10">
+                </div>
+
+            </div>
+            <div class="rain">
+                <div class="icon">
+                    <img src="assets/icon (4).png" alt="" class="cardR">
+                    <img src="assets/Vector (1).png" alt="" class="iconR">
+                </div>
+                <div class="slider">
+                    <audio id="rainSound" src="./audios/Chuva.wav"></audio>
+                    <input type="range" class="rainVolume" min="0" value="0" max="100" step="10">
+                </div>
+            </div>
+            <div class="market">
+                <div class="icon">
+                    <img src="assets/icon (2).png" alt="" class="cardM">
+                    <img src="assets/icon (7).png" alt="" class="iconM">
+                </div>
+                <div class="slider">
+                    <audio id="marketSound" src="./audios/Cafeteria.wav"></audio>
+                    <input type="range" class="marketVolume" min="0" value="0" max="100" step="10">
+                </div>
+            </div>
+            <div class="hot">
+                <div class="icon">
+                    <img src="assets/icon (3).png" alt="" class="cardH">
+                    <img src="assets/icon (8).png" alt="" class="iconH">
+                </div>
+                <div class="slider">
+                    <audio id="hotSound" src="./audios/Lareira.wav"></audio>
+                    <input type="range" class="hotVolume" min="0" value="0" max="100" step="10">
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
